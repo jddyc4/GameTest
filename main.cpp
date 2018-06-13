@@ -18,7 +18,7 @@ int main()
 
 	cout << endl << endl << "Shuffle: " << endl << endl;
 
-	deckOfCards.suffleDeck();
+	deckOfCards.shuffleDeck();
 	deckOfCards.writeDeck();
 
 	return 0;

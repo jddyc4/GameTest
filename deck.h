@@ -26,7 +26,7 @@ class deck
 
 		void createDeck();
 		void writeDeck();
-		void suffleDeck();
+		void shuffleDeck();
 		void deleteDeck() {delete Deck;};
 
 };
@@ -70,7 +70,7 @@ void deck::writeDeck()
 	return;
 }
 
-void deck::suffleDeck()
+void deck::shuffleDeck()
 {
 	srand(time(NULL));
 	card temp[52];
@@ -79,11 +79,6 @@ void deck::suffleDeck()
 	int counter = 0;
 	int randNum = 0;
 
-	for (int i = 0; i < 52; i++)
-	{
-		used[i]=0;	
-	}
-	
 	while (counter < 52)
 	{
 		randNum = rand() % 52;

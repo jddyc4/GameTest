@@ -48,7 +48,7 @@ card::card()
 {
 	Suit = empty;
 	value = 0;
-	display = NULL;
+	display = """";
 
 }
 
