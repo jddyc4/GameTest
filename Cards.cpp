@@ -3,6 +3,9 @@
 // Date: 1/18/18
 //-----------------------------------------------------
 
+// random bull crap
+
+
 #include <iostream>
 #include <ctime>
 #include <cstdlib>
