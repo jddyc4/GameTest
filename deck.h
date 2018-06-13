@@ -79,6 +79,11 @@ void deck::suffleDeck()
 	int counter = 0;
 	int randNum = 0;
 
+	for (int i = 0; i < 52; i++)
+	{
+		used[i]=0;	
+	}
+	
 	while (counter < 52)
 	{
 		randNum = rand() % 52;
