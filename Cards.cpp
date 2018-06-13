@@ -3,7 +3,7 @@
 // Date: 1/18/18
 //-----------------------------------------------------
 
-
+//Nicholas: HI
 #include <iostream>
 #include <ctime>
 #include <cstdlib>
